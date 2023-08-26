@@ -1,0 +1,21 @@
+@use '../../../components/GlobalStyles/' as *;
+
+.profile__info {
+    width: 100%;
+}
+
+.profile__info-title {
+    padding: 1.5rem 2rem;
+    border-top: none;
+    border-bottom: none;
+    background-color: transparent;
+    border: 2px solid #f0f0f0;
+}
+
+.button {
+    margin-top: 1rem;
+
+    @include mobile {
+        font-size: 2rem;
+    }
+}

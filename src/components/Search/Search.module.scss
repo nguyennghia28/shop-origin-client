@@ -1,0 +1,30 @@
+@use '../../components/GlobalStyles/' as *;
+
+.searchBox {
+    background: $text-dark;
+    height: 40px;
+    border-radius: 20px;
+    @include flex(flex-end, center);
+    padding: 10px;
+    transition: 0.3s ease linear;
+    border-radius: 10px;
+}
+
+.searchButton {
+    padding: 4px 5px;
+    border: none;
+    border-radius: 7px;
+    width: 65px;
+    cursor: pointer;
+}
+
+.searchInput {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    width: 180px;
+}

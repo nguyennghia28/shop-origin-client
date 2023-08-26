@@ -1,0 +1,45 @@
+@use '../../../components/GlobalStyles/' as *;
+
+.profile__info {
+    width: 100%;
+}
+
+.profile__info-title {
+    padding: 1.5rem 2rem;
+    border-top: none;
+    border-bottom: none;
+    background-color: transparent;
+    border: 2px solid #f0f0f0;
+}
+
+.profile__info-body {
+    padding: 2rem;
+    border: 2px solid #f0f0f0;
+}
+
+.notification-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.notification-header-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+.notifi-modal {
+    .ant-modal-content {
+        background-color: rgba($color: #e1e1e1, $alpha: 0.3);
+    }
+}
+
+.button {
+    margin-top: 1rem;
+
+    @include mobile {
+        font-size: 2rem;
+    }
+}

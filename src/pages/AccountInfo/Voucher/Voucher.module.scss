@@ -1,0 +1,41 @@
+@use '../../../components/GlobalStyles' as *;
+.profile__info {
+    width: 100%;
+}
+
+.profile__info-title {
+    padding: 1.5rem 2rem;
+    border-top: none;
+    border-bottom: none;
+    background-color: transparent;
+    border: 2px solid #f0f0f0;
+}
+
+.profile__info-body {
+    padding: 2rem;
+    border: 2px solid #f0f0f0;
+}
+
+.card {
+    width: 47% !important;
+    padding: 10px 20px !important;
+    margin: 8px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 6px 10px -2px rgba(0, 0, 0, 0.2) !important;
+    overflow: hidden;
+
+    @include mobile {
+        width: 100% !important;
+    }
+}
+
+.button {
+    margin-top: 1rem;
+
+    @include mobile {
+        font-size: 2rem;
+    }
+}

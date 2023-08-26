@@ -1,0 +1,17 @@
+@use '../../components/GlobalStyles/' as *;
+
+.search-page {
+    margin-top: 300px;
+
+    @include mobile {
+        margin: 150px 0 50px 0;
+    }
+}
+
+.not-found {
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Gotham Light';
+}
